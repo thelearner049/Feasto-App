@@ -19,6 +19,8 @@ main {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px; /* Changed from fixed width to max-width */
+  width: 100%; /* Added to take full width when screen is smaller */
   margin: 0 auto;
+  padding: 0 20px;
 }
