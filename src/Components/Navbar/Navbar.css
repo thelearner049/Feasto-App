@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: transparent;
+  background: radial-gradient(
+    90.16% 143.01% at 15.32% 21.04%,
+    rgba(177, 177, 177, 0.2) 0%,
+    rgba(128, 127, 127, 0.045) 77.08%,
+    rgba(17, 18, 18, 0) 100%
+  );
+  padding: 20px;
+  position: sticky;
+}
+
+.filters button {
+  all: unset;
+  color: white;
+  height: 30px;
+
+  margin-right: 30px;
+  /* border-radius: 5px; */
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.logo h1 span {
+  color: red;
+}
+
+.searchbox input {
+  border: 1.5px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  font-size: 18px;
+  height: 40px;
+  padding: 10px 16px;
+  color: white;
+}
